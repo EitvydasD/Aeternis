@@ -1,0 +1,6 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<ItemGroup>
+		<PackageReference Include="MonoGame.Framework.DesktopGL" />
+		<PackageReference Include="MonoGame.Content.Builder.Task" />
+	</ItemGroup>
+</Project>

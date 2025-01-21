@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aeternis.Client", "Aeternis\Aeternis.Client.csproj", "{C9EA2B9B-5B89-4095-8D81-C8446151B8CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CACD9992-966D-45DA-B19B-D8DFC5657DCE}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aeternis.Engine", "Aeternis.Engine\Aeternis.Engine.csproj", "{5F770178-682A-4AF7-A9D6-15F7593C613C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aeternis.Logic", "Aeternis.Logic\Aeternis.Logic.csproj", "{D82AAFAE-D98F-4658-A256-1D1A4F4CB01E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9EA2B9B-5B89-4095-8D81-C8446151B8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9EA2B9B-5B89-4095-8D81-C8446151B8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9EA2B9B-5B89-4095-8D81-C8446151B8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9EA2B9B-5B89-4095-8D81-C8446151B8CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F770178-682A-4AF7-A9D6-15F7593C613C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F770178-682A-4AF7-A9D6-15F7593C613C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F770178-682A-4AF7-A9D6-15F7593C613C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F770178-682A-4AF7-A9D6-15F7593C613C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D82AAFAE-D98F-4658-A256-1D1A4F4CB01E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D82AAFAE-D98F-4658-A256-1D1A4F4CB01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D82AAFAE-D98F-4658-A256-1D1A4F4CB01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D82AAFAE-D98F-4658-A256-1D1A4F4CB01E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
